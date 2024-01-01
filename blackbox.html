@@ -1,0 +1,83 @@
+ write a html and css code to ligin form in simple format
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login Form</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap
+        .min.css" />
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1 class="text-center font-weight-bold text-primary my-3">Login Form</h1>
+        <form action="" method="post">
+            @csrf
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-sm-12">
+                    <label for="email" class="font-weight-bold">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" class="w-100
+                            <input type=" email " id="email " name="email " placeholder="Enter your email address " class="w-100 <input type="email" name="email" id="email" placeholder="Enter your email address" required/><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required/><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required/><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" class="w-100
+                            <input type=" email " name="email " id="email " placeholder="Enter your email address " required/><br><br>
+                            <input type="email " name="email " id="email " placeholder="Enter your email address " class="form-control mb <input type="email" name="email" id="email" placeholder="Enter your email address" class="form-control mb
+                            <input type=" email " name="email " id="email " placeholder="Enter your email address " class="form-control mb <input type="email" name="email" id="email" placeholder="Enter your email address" class="form-control my-
+                            <input type=" email " id="email " name="email " placeholder="Enter your email address " class="form-control mb <input type="email" name="email" id="email" placeholder="Enter your email address" required/><br><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" class="form-control mb
+                            <input type=" email " name="email " id="email " placeholder="Enter your email address " class="w-100 <input type="email" name="email" id="email" placeholder="Enter your email address" class="form-control mb
+                            <input type=" email " name="email " id="email " placeholder="Enter your email address " class="form-control mb <input type="email" name="email" id="email" placeholder="Enter your email address" class="form-control mb
+                            <input type=" email " name="email " id="email " placeholder="Enter your email address " class="form-control mb <input type="email" id="email" name="email" class="form-control" required/><br>
+                    <label for="password" class="font-weight-bold">Password:</label>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/><br><br>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/><br><br>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/><br><br>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                    <input type="password" id="password" name="password" class="form-control" required/><br><br>
+                    <input type="password" id="password" name="password" class="form-control" required/><br><br>
+                    <button type="submit" class="btn btn-success w-75">Submit</button>
+                </div>
+            </div>
+        </form>
+        <!-- Error Message -->
+        @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+        @endif
+    </div>
+    </div>
+    </section>
+</body>
+
+<body>
+    <footer class="page-footer font-small unique-color-dark">
+        <div style="background-color:#3498db;">
+
+        </div>
+    </footer>
+</body>
+</ul>
+</div>
+</div>
+</div>
+</form>
+</div>
+</body>
+</head>
+
+</html>

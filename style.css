@@ -1,0 +1,213 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Martel+Sans:wght@700&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ body {
+     background-color: black;
+ }
+ 
+ .main {
+     background-image: url("Img/Netflix.jpg");
+     height: 70vh;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: max(1540px, 100vh);
+     position: relative;
+ }
+ 
+ .main .box {
+     height: 70vh;
+     width: 100%;
+     opacity: 0.44;
+     position: absolute;
+     top: 0;
+     background-color: black;
+ }
+ 
+ nav {
+     display: flex;
+     margin: auto;
+     justify-content: space-between;
+     max-width: 120vh;
+     align-items: center;
+     height: 62px;
+ }
+ 
+ nav img {
+     color: red;
+     width: 214px;
+     position: relative;
+     z-index: 10;
+ }
+ 
+ .hero {
+     font-family: 'Martel Sans', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     height: calc(100% - 62px);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: wheat;
+     position: relative;
+     padding: 0 30px;
+ }
+ 
+ .hero> :nth-child(1) {
+     font-weight: 900;
+     font-size: 48px;
+     text-align: center;
+ }
+ 
+ .hero> :nth-child(2) {
+     font-weight: 400;
+     font-size: 24px;
+     text-align: center;
+ }
+ 
+ .hero> :nth-child(3) {
+     font-weight: 400;
+     font-size: 20px;
+     text-align: center;
+ }
+ 
+ .seperation {
+     height: 7px;
+     background-color: rgb(54, 54, 54);
+ }
+ 
+ .btn {
+     padding: 3px 8px;
+     font-weight: bold;
+     background-color: rgba(183, 176, 176, 0.856);
+     color: white;
+     border-radius: 6px;
+     border: 3px solid rgb(186, 183, 183);
+ }
+ 
+ .red-btn {
+     background-color: red;
+     color: white;
+     border-radius: 4px;
+     padding: 15px 60px;
+     font-size: 20px;
+     margin-top: 10PX;
+     cursor: pointer;
+ }
+ 
+ .hero-buttons {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 16px;
+ }
+ 
+ .main input {
+     border-radius: 4px;
+     padding: 15px 64px;
+     font-size: 20px;
+     color: white;
+     margin-top: 10PX;
+     background-color: rgba(36, 36, 36, 0.2);
+     border: 2px solid rgb(188, 186, 186);
+ }
+ 
+ .red-btn-sm {
+     background-color: red;
+     color: white;
+ }
+ 
+ .box1 {
+     display: flex;
+     color: white;
+     text-align: center;
+     justify-content: center;
+ }
+ 
+ .content {
+     color: white;
+     text-align: left;
+     justify-content: center;
+     margin-top: 200px;
+     margin-left: 100px;
+ }
+ 
+ .Enjoy {
+     font-weight: 900;
+     font-size: 48px;
+     text-align: left;
+ }
+ 
+ .Watch {
+     font-weight: 400;
+     font-size: 24px;
+     text-align: left;
+ }
+ 
+ .sceimg {
+     position: relative;
+ }
+ 
+ .sceimg img {
+     width: 40vh;
+ }
+ 
+ .fit {
+     margin-top: -405px;
+     padding-top: 20px;
+     position: absolute;
+     margin-left: 85px;
+ }
+ 
+ .fit video {
+     height: 262px;
+ }
+ 
+ #secvideo {
+     height: 225px;
+     margin-top: -48px;
+     margin-left: 30px;
+     position: absolute;
+ }
+ 
+ #imges {
+     margin-top: 30px;
+     margin-left: 20px;
+ }
+ 
+ .faq h1 {
+     text-align: center;
+     font-size: 48px;
+ }
+ 
+ .faq {
+     background-color: black;
+     color: rgb(254, 253, 253);
+     margin-top: 9px;
+     margin-left: 125px;
+     margin-right: 128px;
+     padding-right: 17px;
+ }
+ 
+ .faqbox {
+     display: flex;
+     margin-top: 20px;
+     background-color: rgb(50, 50, 50);
+     padding: 5px;
+ }
+ 
+ #lasttt {
+     font-size: 20px;
+     margin-left: 151px;
+     margin-top: 22px;
+ }
+ 
+ #last {
+     text-align: right;
+     color: black;
+     font-size: 64px;
+     padding-left: 908px;
+ }
